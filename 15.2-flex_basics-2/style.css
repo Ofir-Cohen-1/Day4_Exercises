@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.item {
+    padding: 40px;
+}
+
+.item1 {
+    background: green;
+}
+
+.item2 {
+    background: blue;
+}
+
+.item3 {
+    background: red;
+}

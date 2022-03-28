@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-color: #2C3043;
+    font-family: "Source Sans Pro", sans-serif;
+}   
+
+.container {
+    padding-top: 5%;
+     margin: auto;
+     width: 80%;
+   }
+   
+   h1 {
+    font-size: 4vw;
+    color: red;
+    height: 49vh;
+    padding-top: 24vh;
+   }
+
+   @media(max-height: 500px) and (min-width: 1200px) {
+    h1 {
+        padding-top: 24vh;
+        font-size: 13vh;
+    }
+}

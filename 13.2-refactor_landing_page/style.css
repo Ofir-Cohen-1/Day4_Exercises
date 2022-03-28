@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333 url('https://source.unsplash.com/daily') no-repeat center center/cover;
+    height: 100vh;
+    color: blue;
+    text-align: center;
+}
+
+ header h1{ 
+     font-size: 3rem;
+ } 
+
+ header h3{ 
+    color:aquamarine;
+} 
+
+ header p {
+    margin: 1rem 0;
+    color: darkblue;
+    font-weight: bold;
+ }
+
+.fa-facebook{ 
+    color: #4267B2;
+    font-size: 20px;
+    margin-bottom: 0.5rem;
+}
+
+.fa-linkedin{
+    color: #4267B2;
+    font-size: 20px;
+}
+
+.clr h4{
+    margin-bottom: 1rem;
+    color: blanchedalmond;
+}
+
+.clr ul{
+    list-style-type: none;
+}
+
+.clr{
+    clear: both;
+    margin-top: 5rem;
+    background: black;
+    width: auto;
+    height: auto;
+    display: inline-block;
+}
+
+@media (max-height: 450px) {
+    body{
+        padding-top: 5rem;
+    }
+}

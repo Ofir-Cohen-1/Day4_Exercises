@@ -1,0 +1,27 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+    height: 100vh;
+}
+
+.item {
+    padding: 40px;
+}
+
+.item1 {
+    background: green;
+}
+
+.item2 {
+    background: blue;
+}
+
+.item3 {
+    background: red;
+}

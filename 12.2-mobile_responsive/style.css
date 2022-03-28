@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 95%;
+    margin: auto;
+}
+
+.box {
+    background: black;
+    color: #fff;
+    width: 24%;
+    float: left;
+    margin-left: 5px;
+}
+
+@media(max-width: 800px) {
+
+    .box {
+        float: none;
+        width: auto;
+        margin: 20px 0;
+    }
+
+    .container {
+        max-width: 50%;
+        margin: auto;
+    }
+}
+    
+
+
+

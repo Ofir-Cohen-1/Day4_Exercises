@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #040450;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serifs;
+}
+
+.menu:hover {
+    background: #ddd;
+}
+
+.navbar {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #777;
+    border-radius: 5px;
+    background: #eee;
+    margin: 1px;
+    color: #040450;
+    text-transform: uppercase;
+}
+
+@media(max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .navbar {
+        flex-direction: column;
+        align-items: center;
+    }
+}
